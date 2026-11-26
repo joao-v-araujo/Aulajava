@@ -1,0 +1,123 @@
+operadores 
+
++mais
+-menos
+/divisão
+*multiplicação
+%modulo
+
+
+
+op.logicos
+
+==igualdade
+=atribuição
+!=diferente
+>maior
+<menor
+>=maior igual
+<=menor igual
+
+
+
+&& and - e
+|| or - ou
+
+
+tipos de variável
+
+int-num.inteiro
+double-num.quebrado
+boolen- v|f
+string-textos
+
+
+
+-----------------------------------------------------
+ double pix;
+
+        pix = 25;
+
+        System.out.println(pix);
+
+pode fazer isso caso na hora da programação vc não saiba o numero que terá que colocar
+
+
+-----------------------------------------------------------------------------------------
+
+
+ // int num1 = 10, num2 = 5, num3 = 100;  //e string tambem pode, mas separa com virgula e termina com ;
+
+
+      int num1 = 10;
+      //num1--; // diminui  o numero (decremento)
+       // num1++; // aumenta o numero(incrementa)
+
+
+=======================================================================================================
+
+
+int num1 = 10; //pde float mas: float num1 = 10f;
+     num1 -=20; // pode dividir, multiplicar e etc.
+
+        System.out.println(num1);
+
+========================================================================================================
+
+public class Main {
+    public static void main(String[]  args) {
+
+       for (int i = 1; i <= 10; i++)
+        {
+            System.out.println( i );
+        }
+    }
+}
+=========================================================================================
+
+if(x%3==0)
+
+o if é a variável divida por um numero e da o resultado final
+
+=============================================================================================================
+
+FOR: use quando já sabe quantas vezes repetir
+WHILE: use quando a repetição depende de uma condição
+
+=============================================================================================================
+
+ctrl+alt+l    indenta tudo automatico-no caso o TAB
+
+
+=============================================================================================================
+while: verifica a condição primeiro e depois executa o código.
+
+do while: executa o código primeiro e depois verifica a condição.
+
+=============================================================================================================
+
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>portifolio pessoal</title>
+</head>
+<body>
+
+<h1> João Vitor Araújo de Oliveira</h1>
+
+<h2> Meus hobbies </h2>
+<p> é um paragrafo </p>
+<strong> este é um texto <br> em negrito </strong>
+<em> TEXTO COM ENFASE </em>
+<mar> texto destacado </mar>
+
+
+<h2> Sobre mim </h2>
+
+<h2>Habilidades</h2>
+
+</body>
+</html>
+
